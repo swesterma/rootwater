@@ -1,7 +1,7 @@
 rootwater
 =========
 
-Info: rootwater is developed with Python >= 3.7
+Info: rootwater is developed with Python >= 3.7, within this repository updated for Python >= 3.10 (esp. regarding pandas v2.2)
 
 .. image:: https://img.shields.io/badge/pypi%20package-0.3-green.svg
     :target: https://pypi.org/project/rootwater/0.3/
@@ -38,19 +38,15 @@ Getting started
 
 The documentation can be found at: http://rootwater.readthedocs.io 
 
-This toolbox is written as a Python module. 
-You can install it through pip: 
-
-.. code-block:: bash
-
-  pip install rootwater
-
+To use the package, clone the repository.
+Please make sure that your soil moisture time series has a localized time zone before applying the estimation of root water uptake.
 
 How to cite
 -----------
 
+For more information, visit the original published code: cojacoo/rootwater.
 If you use this package, please see and cite the research behind it: 
 
-  Jackisch, C., Knoblauch, S., Blume, T., Zehe, E. and Hassler, S.K. (in review): Estimates of tree root water uptake from soil moisture profile dynamics. Biogeosciences Discuss., in review, https://doi.org/10.5194/bg-2019-466
+  Jackisch, C., Knoblauch, S., Blume, T., Zehe, E. and Hassler, S.K. (2020): Estimates of tree root water uptake from soil moisture profile dynamics. Biogeosciences, 2020, https://doi.org/10.5194/bg-17-5787-2020
 
 
